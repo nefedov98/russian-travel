@@ -1,0 +1,32 @@
+.footer {
+    padding-top: 92px;
+    padding-bottom: 24px;
+    max-width: 90vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1050px) {
+    .footer {
+        max-width: 94vw;
+        padding-top: 88px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .footer {
+        max-width: 94vw;
+        padding-top: 88px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
+        max-width: 94vw;
+        padding-top: 64px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
