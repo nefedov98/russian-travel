@@ -5,6 +5,10 @@
     padding-right: 18px;
 }
 
+.header__link-ru:hover {
+    opacity: 80%;
+}
+
 @media screen and (max-width: 425px) {
     .header__link-ru {
         font-size: 18px;
