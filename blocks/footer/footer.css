@@ -15,16 +15,8 @@
     }
 }
 
-@media screen and (max-width: 786px) {
-    .footer {
-        max-width: 94vw;
-        padding-top: 88px;
-    }
-}
-
 @media screen and (max-width: 425px) {
     .footer {
-        max-width: 94vw;
         padding-top: 64px;
         display: grid;
         grid-template-columns: 1fr;

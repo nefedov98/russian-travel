@@ -6,20 +6,29 @@
     padding-bottom: 26px;
 }
 
-@media screen and (max-width: 800px) {
+.place__paragraph:last-child {
+    padding-bottom: 0;
+}
+
+@media screen and (min-width:800) and (max-width: 1050) {
+    .place__paragraph {
+        font-size: 18px;
+        padding-bottom: 26px;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width: 800px) {
     .place__paragraph {
         font-size: 16px;
-        line-height: 163%;
         padding-bottom: 25px;
     }
-  }
+}
 
 @media screen and (max-width: 425px) {
     .place__paragraph {
+        padding-left: 16px;
+        padding-right: 16px;
         font-size: 16px;
         line-height: 163%;
-        padding-bottom: 25px;
-        padding-left: 12px;
-        padding-right: 12px;
     }
-  }
+}

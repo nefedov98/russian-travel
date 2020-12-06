@@ -1,4 +1,37 @@
 .cover__content {
     text-decoration: none;
     color: #fff;
+    margin: auto;
+    background-image: url(../../../images/__background.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 90vw;
+    height: 62.5vw;
+    max-height: 740px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.cover__content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+
+.cover__content:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1050px) {
+    .cover__content {
+        max-width: 100%;
+    }
 }

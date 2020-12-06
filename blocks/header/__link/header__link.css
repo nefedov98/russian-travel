@@ -1,16 +1,21 @@
-.header__link-en {
+.header__link {
     font-size: 24px;
     line-height: 28px;
     text-decoration: none;
     color: #fff;
+    padding-right: 18px;
 }
 
-.header__link-en:hover {
+.header__link:last-child {
+    padding-right: 0;
+}
+
+.header__link:hover {
     opacity: 80%;
 }
 
 @media screen and (max-width: 425px) {
-    .header__link-en {
+    .header__link {
         font-size: 18px;
         line-height: 20px;
     }

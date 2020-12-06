@@ -5,6 +5,7 @@
     font-size: 18px;
     line-height: 22px;
     padding-top: 12px;
+    align-self: flex-start;
 }
 
 .place__link:hover {
