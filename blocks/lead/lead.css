@@ -1,6 +1,7 @@
 .lead {
     padding: 56px 148px 92px 148px;
     justify-content: center;
+    max-width: 984px;
 }
 
 @media screen and (max-width: 1050px) {
