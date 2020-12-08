@@ -1,7 +1,8 @@
 .footer {
     padding-top: 92px;
     padding-bottom: 24px;
-    max-width: 90vw;
+    width: 90vw;
+    max-width: 1184px;
     margin: auto;
     display: flex;
     align-items: center;

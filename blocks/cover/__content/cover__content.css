@@ -5,7 +5,8 @@
     background-image: url(../../../images/__background.jpg);
     background-size: cover;
     background-position: center;
-    max-width: 92vw;
+    width: 92vw;
+    max-width: 1184px;
     height: 62.5vw;
     max-height: 740px;
     text-align: center;
