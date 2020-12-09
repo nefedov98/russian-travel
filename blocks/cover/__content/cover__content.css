@@ -33,6 +33,6 @@
 
 @media screen and (max-width: 1050px) {
     .cover__content {
-        max-width: 100%;
+        width: 100%;
     }
 }
